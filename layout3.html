@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            .parent{
+                width: 100vw;
+                height: 100vh;
+                background-color: white;
+            
+            }
+            .child1{
+                width: 100%;
+                height: 20%;
+                background-color: aqua;
+            }
+            .child2{
+                width: 100%;
+                height: 60%;
+                background-color: red;
+                display: flex;
+            }
+            .child3{
+                width: 100%;
+                height: 20%;
+                background-color: black;
+                display: flex;
+            }
+            .subchild{
+                width: 33.3%;
+                height: 100%;
+                background-color: blueviolet;
+            }
+            .subchild1{
+                width: 33.3%;
+                height: 100%;
+                background-color:violet;
+
+            }
+            .subchild2{
+                width: 34%;
+                height: 100%;
+                background-color: green;
+            }
+
+            .half{
+                width: 50%;
+                height: 100%;
+                background-color: yellow;
+            }
+            .full{
+                width: 50%;
+                height: 100%;
+                background-color: rgb(255, 0, 221);
+            }
+        </style>
+
+
+
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1"></div>
+            <div class="child2">
+                <div class="subchild"></div>
+                <div class="subchild1"></div>
+                <div class="subchild2"></div>
+
+            </div>
+            <div class="child3">
+                <div class="half"></div>
+                <div class="full"></div>
+            </div>
+        
+        </div>
+
+
+    </body>
+</html>
